@@ -3,30 +3,35 @@
   <html>
     <head>
       <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="stylesheet" href="form.css">
       <link
         href="https://fonts.googleapis.com/css?family=Fugaz+One|Montserrat|Roboto"
         rel="stylesheet"
       />
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-      <title>Lawson Taylor</title>
     </head>
 
     <body>
       <div class="container">
         <div class="header">
           <ul class="nav">
-            <li>Work</li>
+            <li><a href="https://github.com/LawsonTaylor" target="_blank">Work</a></li>
           </ul>
           <h1>Lawson Taylor</h1>
           <ul class="nav nv2">
-            <li>About</li>
-            <li>Resume</li>
+            <li><a href="#footer">About</a></li>
+            <li><a href="resume.pdf" download="Lawson-Resume.pdf">Resume</a></li>
           </ul>
         </div>
 
-        <div class="body" id='projects'>
+        <div class="body">
+        <div class="intro">
+            <p style="font-size: 32px;">I am a</p>
+            <p><span id="role">DEVELOPER</span></p>
+        </div>
+        <div id='projects'>
           <div class="w-dyn-item w-col w-col-4">
-            <a href="/startups" class="more-item w-inline-block"
+            <div class="more-item w-inline-block"
               ><div class="more-image-wrap">
                 <div
                   style="background-image:url('https://daks2k3a4ib2z.cloudfront.net/59a5023e275ea200013363dc/59c10a13a161ec000101ea82_idle%20white.png')"
@@ -38,14 +43,14 @@
                 <h2 class="more-heading">Idle Australia</h2>
                 <p class="more-paragraph">Construction hire online</p>
                 <div class='links'>
-                        <a><i class="fas fa-external-link-alt"></i></a>
-                        <a><i class="fab fa-github-square"></i></a>
+                        <a href="https://app.idleaustralia.com.au/hire/equipment/s" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        <!-- <a><i class="fab fa-github-square"></i></a> -->
                     </div>
-              </div></a>
+              </div></div>
           </div>
 
             <div class="w-dyn-item w-col w-col-4">
-                <a href="/startups" class="more-item w-inline-block"
+                <div class="more-item w-inline-block"
                     ><div class="more-image-wrap">
                     <div
                         style="background-image:url('./images/endor.png')"
@@ -57,14 +62,14 @@
                     <h2 class="more-heading">SWAPI</h2>
                     <p class="more-paragraph">Starwars</p>
                     <div class='links'>
-                            <a><i class="fas fa-external-link-alt"></i></a>
-                            <a><i class="fab fa-github-square"></i></a>
+                            <a href="https://star-wars-idle-test.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/LawsonTaylor/Star-Wars-DB" target="_blank"><i class="fab fa-github-square"></i></a>
                         </div>
-                    </div></a>
+                    </div></div>
                 </div>
 
             <div class="w-dyn-item w-col w-col-4">
-                <a href="/startups" class="more-item w-inline-block"
+                <div class="more-item w-inline-block"
                     ><div class="more-image-wrap snake-image-wrap">
                     <div
                         style="background-image:url('./images/snake.png')"
@@ -76,70 +81,76 @@
                     <h2 class="more-heading">Simple Snake</h2>
                     <p class="more-paragraph">Simple Snake - on html canvas</p>
                     <div class='links'>
-                            <a><i class="fas fa-external-link-alt"></i></a>
-                            <a><i class="fab fa-github-square"></i></a>
+                            <a href="https://simplesnake.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/LawsonTaylor/SimpleSnake" target="_blank"><i class="fab fa-github-square"></i></a>
                         </div>
-                    </div></a>
+                    </div></div>
                 </div>
 
             <div class="w-dyn-item w-col w-col-4">
-                <a href="/startups" class="more-item w-inline-block"
+                <div class="more-item w-inline-block"
                     ><div class="more-image-wrap">
                     <div
                         style="background-image:url('./images/chat.jpg')"
                         class="more-image"
                     ></div>
                     </div>
+                    <img src="./images/wip.png" class="wip-image">
                     <div class="more-content">
                     <div class="general-top">Sockets Chatroom</div>
                     <h2 class="more-heading">Chat Room</h2>
                     <p class="more-paragraph">Typescipt sockets chatroom</p>
                     <div class='links'>
-                            <a><i class="fas fa-external-link-alt"></i></a>
-                            <a><i class="fab fa-github-square"></i></a>
+                            <!-- <a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+                            <!-- <a href="" target="_blank"><i class="fab fa-github-square"></i></a> -->
                         </div>
-                    </div></a>
+                    </div></div>
                 </div>
 
             <div class="w-dyn-item w-col w-col-4">
-                <a href="/startups" class="more-item w-inline-block"
+                <div class="more-item w-inline-block"
                     ><div class="more-image-wrap">
                     <div
                         style="background-image:url('./images/crypto.png')"
                         class="more-image"
                     ></div>
                     </div>
+                    <img src="./images/wip.png" class="wip-image">
                     <div class="more-content">
                     <div class="general-top">Typescript Blockchain</div>
                     <h2 class="more-heading">Rumours</h2>
                     <p class="more-paragraph"></p>
                     <div class='links'>
-                            <a><i class="fas fa-external-link-alt"></i></a>
-                            <a><i class="fab fa-github-square"></i></a>
+                            <!-- <a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+                            <a href="https://github.com/LawsonTaylor/Rumours" target="_blank"><i class="fab fa-github-square"></i></a>
                         </div>
-                    </div></a>
+                    </div></div>
                 </div>
             </div>
+        </div>
       </div>
       <hr/>
       <div class="footer">
+          <a name="footer"></a>
           <h3>Want to learn more?</h3>
           <h4>Contact Me</h4>
-          <form action="">
-              <label for="">Name</label>
-              <input type="text">
-              <label for="">Email</label>
-              <input type="text">
-              <label for="">Message</label>
-              <input type="textarea">
-              <button>Send</button>
-          </form>
-          <h4>Download my <a href="">resume</a></h4>
+          <h5><a href="mailto:lawson.j.taylor@gmail.com">lawson.j.taylor@gmail.com</a></h5>
+          <!-- <form action=""> -->
+              <!-- <label for="name">Name</label> -->
+              <!-- <input id="name" name="name" type="text" placeholder="Name"> -->
+              <!-- <label for="email">Email</label> -->
+              <!-- <input id="email" name="email" type="email" placeholder="Email"> -->
+              <!-- <label for="message">Message</label> -->
+              <!-- <input id="message" name="message" type="text" placeholder="Message">
+              <button type="submit">Send</button>
+          </form> -->
+          <h4 id="resume">Download my <a href="resume.pdf" download="Lawson-Resume.pdf">resume</a>.</h4>
       </div>
     </body>
 
     <!-- <footer>
       <div class="Footer"><b>Copyright - 2018</b></div>
     </footer> -->
+    <script src="index.js"></script> 
   </html>
 </html>

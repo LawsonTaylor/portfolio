@@ -40,3 +40,19 @@ const projects = [
 
 const body = document.getElementById('projects');
 
+
+const role = document.getElementById("role");
+let index = 0;
+let oldindex = 0;
+const roles = ['coder', 'hacker', 'problem solver', 'builder', 'student', 'developer'];
+const number = roles.length;
+let timer = Math.floor((Math.random() * 1600) + 800);
+
+setInterval(() => {
+  while(oldindex == index) {
+    index = Math.floor((Math.random() * number));
+  }
+  role.innerHTML = roles[index].toUpperCase();
+  oldindex = index;
+}, 1400);
+

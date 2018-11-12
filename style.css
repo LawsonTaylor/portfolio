@@ -15,7 +15,7 @@ body {
 .header h1 {
   font-family: 'Fugaz One', cursive;
   margin: 10px 0px;
-  padding-left: 40px;
+  padding-left: 96px;
 }
 
 .nav {
@@ -38,13 +38,38 @@ body {
 }
 
 .body {
+  min-height: calc(100vh - 70px);
   /* background-color: #f6f6f6; */
   padding: 20px 80px;
   font-family: 'Montserrat', sans-serif;
+}
+
+.body .intro {
+  padding: 2%;
+}
+
+.i-text p {
+  font-size: 28px;
+}
+
+.intro p {
+  text-align: center;
+  font-size: 48px;
+  margin: 20px;
+}
+
+#projects {
   display: flex;
   justify-content: space-between;
 }
 
+a {
+  color: #000;
+}
+
+a :hover {
+  color: #5dc0ff;
+}
 
 .w-col-4 {
   width: 33.33333333%;
@@ -78,7 +103,7 @@ body {
   width: 140px;
   height: 140px;
   margin-right: auto;
-  margin-left: auto;
+  /* margin-left: auto; */
   padding: 10px;
   border: 10px solid #f5f5f5;
   border-radius: 100%;
@@ -98,7 +123,7 @@ body {
   position: static;
   min-height: 220px;
   margin-top: -100px;
-  padding: 130px 30px 30px;
+  padding: 134px 30px 30px;
   background-color: #f6f6f6;
   text-decoration: none;
   border-radius: 4px;
@@ -111,6 +136,7 @@ body {
   font-size: 12px;
   letter-spacing: 3px;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .more-heading {
@@ -135,6 +161,13 @@ body {
   background-position: 50% 50%;
 }
 
+.wip-image {
+  height: 100px;
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}
+
 .links {
   font-size:  24px;
   position: absolute;
@@ -146,6 +179,11 @@ body {
   padding-right: 10px;
 }
 
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .fa-github-square {
   top: 1px;
   position: relative;
@@ -153,6 +191,7 @@ body {
 }
 
 .footer {
+  font-family: 'Roboto', sans-serif;
   margin: auto;
   width: 40%;
   text-align: center;
@@ -162,4 +201,9 @@ body {
 .footer form {
   display: flex;
   flex-direction: column;
+}
+
+#resume a {
+  color: #5dc0ff;
+  text-decoration: none;
 }
