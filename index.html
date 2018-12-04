@@ -1,156 +1,160 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <html>
-    <head>
-      <link rel="stylesheet" type="text/css" href="style.css" />
-      <link rel="stylesheet" href="form.css">
-      <link
-        href="https://fonts.googleapis.com/css?family=Fugaz+One|Montserrat|Roboto"
-        rel="stylesheet"
-      />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Montserrat|Roboto" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+</head>
 
-    <body>
-      <div class="container">
-        <div class="header">
-          <ul class="nav">
-            <li><a href="https://github.com/LawsonTaylor" target="_blank">Work</a></li>
-          </ul>
-          <h1>Lawson Taylor</h1>
-          <ul class="nav nv2">
-            <li><a href="#footer">About</a></li>
-            <li><a href="resume.pdf" download="Lawson-Resume.pdf">Resume</a></li>
-          </ul>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Lawson Taylor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/LawsonTaylor" target="_blank">Work</a>
+            </li>
+            <li class="nav-item">
+                <a  class="nav-link"  href="#footer">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="resume.pdf" download="Lawson-Resume.pdf">Resume</a>
+            </li>
+            </ul>
         </div>
-
-        <div class="body">
-        <div class="intro">
-            <p style="font-size: 32px;">I am a</p>
-            <p><span id="role">DEVELOPER</span></p>
-        </div>
-        <div id='projects'>
-          <div class="w-dyn-item w-col w-col-4">
-            <div class="more-item w-inline-block"
-              ><div class="more-image-wrap">
-                <div
-                  style="background-image:url('https://daks2k3a4ib2z.cloudfront.net/59a5023e275ea200013363dc/59c10a13a161ec000101ea82_idle%20white.png')"
-                  class="more-image"
-                ></div>
-              </div>
-              <div class="more-content">
-                <div class="general-top">MEAN stack</div>
-                <h2 class="more-heading">Idle Australia</h2>
-                <p class="more-paragraph">Construction hire online</p>
-                <div class='links'>
-                        <a href="https://app.idleaustralia.com.au/hire/equipment/s" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                        <!-- <a><i class="fab fa-github-square"></i></a> -->
-                    </div>
-              </div></div>
-          </div>
-
-            <div class="w-dyn-item w-col w-col-4">
-                <div class="more-item w-inline-block"
-                    ><div class="more-image-wrap">
-                    <div
-                        style="background-image:url('./images/endor.png')"
-                        class="more-image"
-                    ></div>
-                    </div>
-                    <div class="more-content">
-                    <div class="general-top">Angular 5</div>
-                    <h2 class="more-heading">SWAPI</h2>
-                    <p class="more-paragraph">Starwars</p>
-                    <div class='links'>
-                            <a href="https://star-wars-idle-test.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                            <a href="https://github.com/LawsonTaylor/Star-Wars-DB" target="_blank"><i class="fab fa-github-square"></i></a>
+    </nav>
+    <div class="container-fluid"></div>
+            <!-- <div class="intro">
+                <p style="font-size: 32px;">I am a</p>
+                <p><span id="role">DEVELOPER</span></p>
+            </div> -->
+            <div id='projects'>
+                <div class="card-col">
+                    <div class="more-item w-inline-block">
+                        <div class="more-image-wrap">
+                            <div style="background-image:url('https://daks2k3a4ib2z.cloudfront.net/59a5023e275ea200013363dc/59c10a13a161ec000101ea82_idle%20white.png')"
+                                class="more-image"></div>
                         </div>
-                    </div></div>
+                        <div class="more-content">
+                            <div class="general-top">MEAN stack</div>
+                            <h2 class="more-heading">Idle Australia</h2>
+                            <p class="more-paragraph">Construction hire online</p>
+                            <div class='links'>
+                                <a href="https://app.idleaustralia.com.au/hire/equipment/s" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                <!-- <a><i class="fab fa-github-square"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-            <div class="w-dyn-item w-col w-col-4">
-                <div class="more-item w-inline-block"
-                    ><div class="more-image-wrap snake-image-wrap">
-                    <div
-                        style="background-image:url('./images/snake.png')"
-                        class="more-image"
-                    ></div>
-                    </div>
-                    <div class="more-content">
-                    <div class="general-top">HTML5 CANVAS</div>
-                    <h2 class="more-heading">Simple Snake</h2>
-                    <p class="more-paragraph">Simple Snake - on html canvas</p>
-                    <div class='links'>
-                            <a href="https://simplesnake.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                            <a href="https://github.com/LawsonTaylor/SimpleSnake" target="_blank"><i class="fab fa-github-square"></i></a>
+                <div class="card-col">
+                    <div class="more-item w-inline-block">
+                        <div class="more-image-wrap">
+                            <div style="background-image:url('./images/endor.png')" class="more-image"></div>
                         </div>
-                    </div></div>
+                        <div class="more-content">
+                            <div class="general-top">Angular 5</div>
+                            <h2 class="more-heading">SWAPI</h2>
+                            <p class="more-paragraph">Starwars</p>
+                            <div class='links'>
+                                <a href="https://star-wars-idle-test.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/LawsonTaylor/Star-Wars-DB" target="_blank"><i class="fab fa-github-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-            <div class="w-dyn-item w-col w-col-4">
-                <div class="more-item w-inline-block"
-                    ><div class="more-image-wrap">
-                    <div
-                        style="background-image:url('./images/chat.jpg')"
-                        class="more-image"
-                    ></div>
-                    </div>
-                    <img src="./images/wip.png" class="wip-image">
-                    <div class="more-content">
-                    <div class="general-top">Sockets Chatroom</div>
-                    <h2 class="more-heading">Chat Room</h2>
-                    <p class="more-paragraph">Typescipt sockets chatroom</p>
-                    <div class='links'>
-                            <!-- <a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
-                            <!-- <a href="" target="_blank"><i class="fab fa-github-square"></i></a> -->
+                <div class="card-col">
+                    <div class="more-item w-inline-block">
+                        <div class="more-image-wrap snake-image-wrap">
+                            <div style="background-image:url('./images/snake.png')" class="more-image"></div>
                         </div>
-                    </div></div>
+                        <div class="more-content">
+                            <div class="general-top">HTML5 CANVAS</div>
+                            <h2 class="more-heading">Simple Snake</h2>
+                            <p class="more-paragraph">Simple Snake - on html canvas</p>
+                            <div class='links'>
+                                <a href="https://simplesnake.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/LawsonTaylor/SimpleSnake" target="_blank"><i class="fab fa-github-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-            <div class="w-dyn-item w-col w-col-4">
-                <div class="more-item w-inline-block"
-                    ><div class="more-image-wrap">
-                    <div
-                        style="background-image:url('./images/crypto.png')"
-                        class="more-image"
-                    ></div>
-                    </div>
-                    <img src="./images/wip.png" class="wip-image">
-                    <div class="more-content">
-                    <div class="general-top">Typescript Blockchain</div>
-                    <h2 class="more-heading">Rumours</h2>
-                    <p class="more-paragraph"></p>
-                    <div class='links'>
-                            <!-- <a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
-                            <a href="https://github.com/LawsonTaylor/Rumours" target="_blank"><i class="fab fa-github-square"></i></a>
+                <div class="card-col">
+                    <div class="more-item w-inline-block">
+                        <div class="more-image-wrap">
+                            <div style="background-image:url('./images/chat.jpg')" class="more-image"></div>
                         </div>
-                    </div></div>
+                        <img src="./images/wip.png" class="wip-image">
+                        <div class="more-content">
+                            <div class="general-top">Sockets Chatroom</div>
+                            <h2 class="more-heading">Chat Room</h2>
+                            <p class="more-paragraph">Typescipt sockets chatroom</p>
+                            <div class='links'>
+                                <!-- <a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+                                <!-- <a href="" target="_blank"><i class="fab fa-github-square"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-col">
+                    <div class="more-item w-inline-block">
+                        <div class="more-image-wrap">
+                            <div style="background-image:url('./images/crypto.png')" class="more-image"></div>
+                        </div>
+                        <img src="./images/wip.png" class="wip-image">
+                        <div class="more-content">
+                            <div class="general-top">Typescript Blockchain</div>
+                            <h2 class="more-heading">Rumours</h2>
+                            <p class="more-paragraph"></p>
+                            <div class='links'>
+                                <!-- <a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+                                <a href="https://github.com/LawsonTaylor/Rumours" target="_blank"><i class="fab fa-github-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-      </div>
-      <hr/>
-      <div class="footer">
-          <a name="footer"></a>
-          <h3>Want to learn more?</h3>
-          <h4>Contact Me</h4>
-          <h5><a href="mailto:lawson.j.taylor@gmail.com">lawson.j.taylor@gmail.com</a></h5>
-          <!-- <form action=""> -->
-              <!-- <label for="name">Name</label> -->
-              <!-- <input id="name" name="name" type="text" placeholder="Name"> -->
-              <!-- <label for="email">Email</label> -->
-              <!-- <input id="email" name="email" type="email" placeholder="Email"> -->
-              <!-- <label for="message">Message</label> -->
-              <!-- <input id="message" name="message" type="text" placeholder="Message">
+    </div>
+    <hr />
+    <!-- <div class="footer">
+        <a name="footer"></a>
+        <h3>Want to learn more?</h3>
+        <h4>Contact Me</h4>
+        <h5><a href="mailto:lawson.j.taylor@gmail.com">lawson.j.taylor@gmail.com</a></h5>
+        <!-- <form action=""> -->
+        <!-- <label for="name">Name</label> -->
+        <!-- <input id="name" name="name" type="text" placeholder="Name"> -->
+        <!-- <label for="email">Email</label> -->
+        <!-- <input id="email" name="email" type="email" placeholder="Email"> -->
+        <!-- <label for="message">Message</label> -->
+        <!-- <input id="message" name="message" type="text" placeholder="Message">
               <button type="submit">Send</button>
           </form> -->
-          <h4 id="resume">Download my <a href="resume.pdf" download="Lawson-Resume.pdf">resume</a>.</h4>
-      </div>
-    </body>
+        <!-- <h4 id="resume">Download my <a href="resume.pdf" download="Lawson-Resume.pdf">resume</a>.</h4>
+    </div> -->
+</body>
 
-    <!-- <footer>
+<!-- <footer>
       <div class="Footer"><b>Copyright - 2018</b></div>
     </footer> -->
-    <script src="index.js"></script> 
-  </html>
+<script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
 </html>
